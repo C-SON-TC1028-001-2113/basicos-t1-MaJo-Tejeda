@@ -9,5 +9,6 @@ adt= (al*ba)/2
 print('El area es: ' + adt )
 
 
+
 if __name__ == '__main__':
     main()
