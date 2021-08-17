@@ -1,12 +1,10 @@
 def main():
     #escribe tu código abajo de esta línea
-print('Escribe la altura del triangulo')
-al = int()
-print('Escribe la base del triangulo')
-ba = int()
+h = int(input('Escribe la altura del triangulo'))
+b = int(input('Escribe la base del triangulo'))
 
-adt= (al*ba)/2 
-print('El area es: ' + adt )
+adt = (h*b)/2 
+print(f"El area es: ,(adt)")
 
 
 
